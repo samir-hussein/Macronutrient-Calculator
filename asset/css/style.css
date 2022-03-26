@@ -1,0 +1,70 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaisei Decol", serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+html {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cal_perc {
+    width: calc(100% / 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+@media (max-width: 575.98px) {
+    #content {
+        width: 100% !important;
+        padding: 5% !important;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    h5 {
+        font-size: 16px !important;
+    }
+
+    label {
+        font-size: 15px !important;
+    }
+
+    div.ms-4 {
+        margin-left: 1% !important;
+    }
+}
+
+@media (min-width: 575.98px) and (max-width: 1199.98px) {
+    #content {
+        width: 100% !important;
+        padding: 5% !important;
+    }
+
+    img {
+        width: 300px;
+    }
+}
